@@ -29,19 +29,12 @@ This project utilizes the [OpenWeatherMap API](https://openweathermap.org/api) t
 
 ```
 weather/
-├── main.go               # Go server to handle API requests and serve static files
+├── main.go              
 ├── static/
-│   ├── index.html        # HTML for the weather app
-│   ├── script.js         # JavaScript for fetching weather data and updating the UI
-│   ├── styles.css        # CSS for styling the app
+│   ├── index.html      
+│   ├── script.js       
+│   ├── styles.css        
 │   └── src/              # Directory for background images
-│       ├── cold.jpg
-│       ├── cool.JPG
-│       ├── freeze.jpg
-│       ├── hot.jpg
-│       ├── mild.jpg
-│       ├── vhot.jpg
-│       └── warm.jpg
 └── apiConfig.json       
 ```
 
